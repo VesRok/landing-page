@@ -1,0 +1,124 @@
+* {
+    font-family: "Roboto", 'Times New Roman', Times, serif;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+margin-bottom: 50px;
+flex-shrink: 0;
+}
+.description {
+    width: 650px;
+}
+.description h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.description p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.first-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.hero-content {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    align-items: center;
+}
+.description {
+    width:400px;
+    min-width: 300px;
+}
+.perks img {
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+    border: solid black 3px;
+}
+.hero-content img {
+    max-width: 500px;
+    max-height: 300px;
+}
+    .perks {
+        display: flex;
+        gap: 50px;
+        font-weight: bold;
+    }
+    h2 {
+        padding: 30px;
+        font-size: 35px;
+    }
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 100px;
+    }
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:#E5E7EB;
+        padding: 160px;
+
+    }
+.quote {
+    width: 950px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+.perk {
+    width: 200px;
+    height: 200px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-training {
+  border-radius: 20px;
+  border: solid black 5px;
+  margin: 30px;
+  padding: 30px;
+}
